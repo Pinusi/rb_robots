@@ -1,6 +1,8 @@
 # Main #
 ######################
 node_modules
+OUT
+bower_components
 .sass-cache
 .tmp
 
