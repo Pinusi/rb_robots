@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robots</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+	<meta name="description" content="">
+
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="shortcut icon" href="/imgs/favicon.ico" />
+
+	<script src="scripts/scripts.min.js"></script>
+	<script src="scripts/bower.min.js"></script>
+	<script>
+	$(document).ready(function($) {
+		window.ROBOTSWORLD = new CLIENT.ROBOTSWORLD.Main( 5,3,"#world" );
+		window.ROBOTSWORLD.createRobots([
+			{
+				position: "1 1 E",
+				instructions: "RFRFRFRF"
+			},
+			{
+				position: "3 2 N",
+				instructions: "FRRFLLFFRRFLL"
+			},
+			{
+				position: "0 3 W",
+				instructions: "LLFFFLFLFL"
+			}
+		]);
+	});
+
+</script>
+</head>
+<body>
+	<div id="world"></div>
+</body>
+</html>

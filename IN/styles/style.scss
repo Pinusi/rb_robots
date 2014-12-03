@@ -1,0 +1,16 @@
+/*IMPORTS*/
+@import "compass";
+
+/*VARIABLES*/
+#world{
+	background-color: #EC5B4C;
+	position: relative;
+
+	.robot{
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		background-color: #000;
+		@include border-radius(4px, 4px);
+	}
+}

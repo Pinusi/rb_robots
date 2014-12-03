@@ -1,0 +1,21 @@
+{
+  "name": "robots",
+  "version": "1.0.0",
+  "authors": [
+    "Cecilia De Conto <deconto.cecilia@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "IN/scritps/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2"
+  }
+}
