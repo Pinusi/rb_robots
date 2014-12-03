@@ -1,10 +1,9 @@
-SERVER
+<p>In order to get it working run in the folder through console:</p>
+<ul>
+	<li>npm install</li>
+	<li>bundle install</li>
+	<li>bower install</li>
+	<li>grunt</li>
+</ul>
 
-CMS
-|_ _ _ DASHBOARD
-|_ _ _ DASHBOARD
-|_ _ _ DASHBOARD
-|_ _ _ DASHBOARD
-|_ _ _ DASHBOARD
-
-UI
+<p>Original code is in IN folder, the prod is in OUT folder</p>
